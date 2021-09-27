@@ -1,0 +1,117 @@
+@-webkit-keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@-webkit-keyframes hand{
+	0%{
+		transform: rotate(0deg);
+	}
+	10%{
+		transform: rotate(14deg);
+	}
+	20%{
+		transform: rotate(-8deg);
+	}
+	30%{
+		transform: rotate(14deg);
+	}
+	40%{
+		transform: rotate(-4deg);
+	}
+	50%{
+		transform: rotate(10deg);
+	}
+	60%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+
+@-moz-keyframes hand{
+	0%{
+		transform: rotate(0deg);
+	}
+	10%{
+		transform: rotate(14deg);
+	}
+	20%{
+		transform: rotate(-8deg);
+	}
+	30%{
+		transform: rotate(14deg);
+	}
+	40%{
+		transform: rotate(-4deg);
+	}
+	50%{
+		transform: rotate(10deg);
+	}
+	60%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes hand{
+	0%{
+		transform: rotate(0deg);
+	}
+	10%{
+		transform: rotate(14deg);
+	}
+	20%{
+		transform: rotate(-8deg);
+	}
+	30%{
+		transform: rotate(14deg);
+	}
+	40%{
+		transform: rotate(-4deg);
+	}
+	50%{
+		transform: rotate(10deg);
+	}
+	60%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+
+@keyframes rotateCubeLeftOut {
+	0% { }
+  50% { animation-timing-function: ease-out; transform: translateX(-50%) translateZ(-200px) rotateY(-45deg); }
+  100% { opacity: 0.3; transform: translateX(-100%) rotateY(-90deg); }
+}
+
+@keyframes rotateCubeRightOut {
+	0% { }
+	50% { animation-timing-function: ease-out; transform: translateX(50%) translateZ(-200px) rotateY(45deg); }
+	100% { opacity: 0.3; transform: translateX(100%) rotateY(90deg); }
+}
+
+@keyframes rotateCubeLeftIn {
+	0% { opacity: 0.3; transform: translateX(100%) rotateY(90deg); }
+	50% { animation-timing-function: ease-out; transform: translateX(50%) translateZ(-200px) rotateY(45deg); }
+}
+
+@keyframes rotateCubeRightIn {
+	0% { opacity: 0.3; transform: translateX(-100%) rotateY(-90deg); }
+	50% { animation-timing-function: ease-out; transform: translateX(-50%) translateZ(-200px) rotateY(-45deg); }
+}

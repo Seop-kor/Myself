@@ -1,0 +1,17 @@
+/* Reset Style Code */
+* { margin: 0; padding: 0; box-sizing: border-box; } 
+a { color: #cccccc; text-decoration: none; } 
+ol, ul { list-style: none; } 
+input, button, textarea { outline: 0; border-radius: 0; border: 0; } 
+textarea { resize: none; } 
+img { display: block; } 
+/* body { font-size: 14px; font-family: 'Roboto', 'Noto Sans KR', sans-serif; color: #cccccc; } */
+body { font: 16px Menlo,Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif; color: #cccccc; background: #19181f; } 
+
+/* #root { width: 80%; margin: auto; padding: 10px 0; } */
+/* #fullpage { width: 80%; margin: auto; _padding: 10px 0; } */
+.center { width: 100%; margin: auto; max-width: 1230px; height: auto; } 
+/* section { padding: 50px 0; } */
+html,
+body,
+#root { height: 100%; } 
